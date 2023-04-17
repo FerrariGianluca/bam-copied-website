@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-titulo{
+    font-weight: bold;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: rgb(185, 127, 176);
+}
+
+nav div div{
+    font-size: 20px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .titulo{
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.titulo button{
+    background-color: rgb(185, 127, 176);
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.titulo h1{
+    color: rgb(185, 127, 176);
+    font-size: 60px;
+}
+
+.img-principal{
+    margin-bottom: 40px;
+}
+
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+
+.reseña{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 50px
+}
+
+.i-reseña{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33%;
+    padding: 40px;
+}
+
+.i-reseña p{
+    line-height: 30px
+}
+
+.autor{
+    color:rgb(185, 127, 176);
+    font-weight: bold;
+}
+
+.comentario{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.comentario a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(185, 127, 176);
+    color: rgb(185, 127, 176);
+}
+
+.comentario a:visited{
+    color: rgb(185, 127, 176);
+}
+
+.comentario a:link{
+    color: rgb(185, 127, 176);
+}
+
+.comentario a:hover{
+    color: rgb(109, 71, 103);
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+.galeria div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria div img{
+    padding: 10px;
+}
+
+.comunicate-con-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.informacion{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.i{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.i div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px
+}
+
+.i button{
+    padding: 20px;
+    background-color: rgb(185, 127, 176);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.linea{
+    width: 50px;
+    margin-top: -1.6px;
+    border-top: 1px solid black;
+}
+
+footer{
+    display: flex;
+    padding: 20px 50px 100px;
+    justify-content: space-between;
+}
+
+footer div{
+    color: rgb(177, 177, 177);
+}
+
+footer div a{
+    text-decoration: none;
+}
+
+footer div a:visited{
+    color: rgb(177, 177, 177);
+}
+
+footer div a:link{
+    color: rgb(177, 177, 177);
+}
+
+button:hover{
+    background-color: rgb(138, 105, 133);
+}
